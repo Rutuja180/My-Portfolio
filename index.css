@@ -1,0 +1,216 @@
+/*google font import statement*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Bree+Serif&family=Bricolage+Grotesque:opsz@10..48&family=Courgette&family=Kanit:ital,wght@1,300&family=Lobster&family=Pacifico&family=Roboto:ital,wght@0,500;1,400&family=Satisfy&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Bricolage+Grotesque:opsz@10..48&family=Courgette&family=Kanit:ital,wght@1,300&family=Lobster&family=Pacifico&family=Roboto:ital,wght@0,500;1,400&family=Satisfy&family=Shadows+Into+Light&display=swap');
+body
+{
+  margin-top: 0px;
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Arvo', serif;
+}
+.navigation-bar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+.myname
+{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: bolder;
+  font-size: 40 px;
+  color: #d573d9;
+}
+.mymenu
+{
+  text-transform: uppercase;
+  color: purple;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1.5 px;
+}
+.mymenu:hover
+{
+	color: #d573d9 ;
+}
+.dv
+{
+	height: 500px;
+	width: 100%;
+}
+.info
+{
+	margin-top: 10%;
+	margin-left: 5%;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.hminfo
+{
+	font-size: 20px;
+	color: #58225c;
+}
+.hmname
+{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Arvo', serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #d573d9;
+}
+.hminfo1
+{
+  font-size: 30px;
+  color: purple;
+  font-weight: bolder;
+}
+.cont
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+#home
+{
+  width: 100vw;
+  height: 500px;
+  background-image: url("https://camo.githubusercontent.com/0c9837fb47204ad3cdcbe3da75414266a19d007721862591c91034559ff6815b/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f70726163746963616c6465762f696d6167652f66657463682f732d2d4f307531624e48732d2d2f635f6c696d6974253243665f6175746f253243666c5f70726f6772657373697665253243715f3636253243775f3838302f68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f302532415058663567653751434e3947615f434c2e676966");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 94% -70px;
+}
+.rsmbtn button
+{
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  margin: 30px;
+  background-color: #d573d9 ;
+  font-size: 18px;
+  color: white;
+}
+.rsmbtn button:hover
+{
+  transform: scale(1.0);
+  transition-duration: 1s;
+  border: 1px solid #d573d9;
+  background-color: white;
+  color: #d573d9;
+}
+.hd
+{
+  font-size: 35px;
+  color: #8135de;
+  font-family: arial black;
+}
+.outerdiv
+{
+  height: 300px;
+  width: 100vw;
+  background-color: lightblue;
+  display: inline;
+}
+#about,#skills
+{
+  height: 300px;
+  width: 100vw;
+  background-color: #f4edf5;
+}
+#about table
+{
+  margin-top: 30px;
+}
+.co
+{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 20%;
+  line-height: 36px;
+}
+.myimg
+{
+  border-radius: 100px;
+  width: 200px;
+}
+.myimg:hover
+{
+  transform: scale(1.2);
+  transition-duration: 1.5s;
+  box-shadow: 0px 0px 20px lavenderblush;
+}
+#skills
+{
+  background-color: white;
+  margin-top: 30px;
+  height: 500px;
+}
+#skills table
+{
+  margin-top: 30px;
+}
+.tbl tr transition-duration
+{
+  text-align: left;
+  padding-top: 0px;
+}
+.skillshead
+{
+  font-size: 25px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  color:#d573d9 ;
+  margin-bottom: 40px;
+  text-decoration: underline 2px solid #d573d9;
+}
+td
+{
+  padding: 20px;
+}
+.tbl tr td p
+{
+  font-size: 20px;
+  margin-top: 20px;
+  color: black;
+  font-weight: bolder;
+}
+.card-text
+{
+  color: grey;
+}
+.projectss
+{
+  margin-top: 30px;
+  width: 90%;
+  height: 800px;
+}
+.protitle
+{
+  font-size: 23px;
+  font-weight: bolder;
+  color: black;
+}
+.protitle:hover
+{
+  color: darkpurple;
+  text-decoration: underline 2px solid purple;
+}
+.card-text small a
+{
+  font-weight: bolder;
+}
+#nextpro
+{
+  margin-top: 20px;
+}
+#contact
+{
+  width: 100vw;
+  height: 300px;
+  z-index: 2;
+}

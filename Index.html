@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <!-- bootstrap v4.6 css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- bootstrap js links -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- link to add tab icon -->
+    
+    <!-- index page css link -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Rutuja Portfolio</title>
 </head>
 <body>
-    <h1 align="center">My first application on GIT</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><span class="myname">RUTUJA</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"><span class="mymenu">Home</span> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"><span class="mymenu">About</span></a>
+      </li>
+      <li>
+        <a class="nav-link" href="#skills"><span class="mymenu">Skills</span></a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" href="#project"><span class="mymenu">Projects</span></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#contact"><span class="mymenu">Contact</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+     <div class="dv" id="home">
+        <div class="info">
+            <span class="hminfo">Hello</span><br>
+            <span class="hminfo">My name is</span><br>
+            <span class="hminfo1">RUTUJA RUPNAWAR</span><br>
+            <span class="hminfo">I am a full stack JAVA developer</span>
+            <div class="rsmbtn">
+                <button>RESUME</button>
+            </div>
+        </div>
+     </div>
+     <div class="dv" id="about" align="center">
+         <h1 align="center" class="hd">ABOUT</h1>
+         <table width="95%" height="220px">
+            <tr>
+                <td width="40%" align="center" valign="top">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB6zgQTvCfckWBp5tZ0gwel2G_22-vP6U02A&usqp=CAU" height="180px" class="myimg">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p class="co">
+                            Self-motivated, highly passionate, and hardworking fresher looking for an opportunity to work in a challenging organization to utilize my skills and knowledge to work for the growth of the organisation.
+                        </p>
+                    </div>
+         </table>
+     </div>
+
+     <div class="dv" id="skills" align="center">
+         <h1 align="center" class="hd">SKILLS</h1>
+         <div>
+             <table height="300px" width="95%" class="tb1">
+                 <tr valign="top">
+                    <td width="50%">
+                        <span class="skillshead">Language</span><br>
+                        <p>C, SQL, Core JAVA, HTML, CSS, JavaScript, XML, JSON</p>
+                    </td>
+                    <td>
+                        <span class="skillshead">Tools</span><br>
+                        <p>Oracle SQL, MySQL, Eclipse(Oxygen), Visual Studio Code, Postman, JIRA(Project Management tool)</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td>
+                        <span class="skillshead">APIs and Frameworks</span><br>
+                        <p>Collections, Streams, Data & Time, REST, SOAP, ReactJS, Hibernates, JSP, Servlets,
+                        Spring, SpringBoot, Bootstrap(4.6v)</p>
+                    </td>
+                <td>
+                    <span class="skillshead">Operating System</span><br>
+                    <p>Windows, Linux, Ubuntu, iOs, Unix, Android</p>
+                    </td>
+                </tr>
+             </table>
+         </div>
+     </div>
+
+
+
+     <div class="dv" id="project">
+         <h1>PROJECT</h1>
+     </div>
+     <div class="dv" id="contact">
+         <h1>CONTACT</h1>
+     </div>
+     
 </body>
 </html>
