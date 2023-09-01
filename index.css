@@ -38,7 +38,7 @@ body
 }
 .dv
 {
-	height: 500px;
+	height: 700px;
 	width: 100%;
 }
 .info
@@ -105,8 +105,9 @@ body
 .hd
 {
   font-size: 35px;
-  color: #8135de;
-  font-family: arial black;
+  color: #9838b5;
+  font-family: comic sans;
+  font-weight: bolder;
 }
 .outerdiv
 {
@@ -152,7 +153,7 @@ body
 }
 #skills table
 {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .tbl tr transition-duration
 {
@@ -183,6 +184,11 @@ td
 {
   color: grey;
 }
+/*.card-img-top
+{
+  height: 100px;
+  width: 100px;
+}*/
 .projectss
 {
   margin-top: 30px;
