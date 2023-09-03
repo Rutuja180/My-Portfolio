@@ -38,7 +38,7 @@ body
 }
 .dv
 {
-	height: 700px;
+	height: 800px;
 	width: 100%;
 }
 .info
@@ -220,3 +220,33 @@ td
   height: 300px;
   z-index: 2;
 }
+.card-img-top
+{
+  height: 300px;
+  width: 350px;
+}
+.btn
+{
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  margin: 30px;
+  background-color: #d573d9 ;
+  font-size: 18px;
+  color: white;
+}
+.btn button:hover
+{
+  transform: scale(1.0);
+  transition-duration: 1s;
+  border: 1px solid #d573d9;
+  background-color: white;
+  color: #d573d9;
+}
+.contacts
+{
+  height: 10px;
+  width: 10px;
+}
+
